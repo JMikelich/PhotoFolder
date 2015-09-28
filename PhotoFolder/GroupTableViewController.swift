@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+
 
 class GroupTableViewController: UITableViewController {
 
@@ -14,7 +16,6 @@ class GroupTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
 //        if self.revealViewController() != nil {
 //            menuButton.target = self.revealViewController()
