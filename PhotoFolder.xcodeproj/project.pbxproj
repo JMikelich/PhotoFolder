@@ -13,6 +13,9 @@
 		15B497661BA8AD2000C43FE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B497651BA8AD2000C43FE7 /* Images.xcassets */; };
 		15B497691BA8AD2000C43FE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B497671BA8AD2000C43FE7 /* LaunchScreen.xib */; };
 		15B497751BA8AD2000C43FE7 /* PhotoFolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B497741BA8AD2000C43FE7 /* PhotoFolderTests.swift */; };
+		FA29BE551BB9301500E3E122 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29BE541BB9301500E3E122 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FAFC44A11BA964CA00CB188D /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC44A01BA964CA00CB188D /* GroupTableViewController.swift */; };
+		FAFC44A31BA964ED00CB188D /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC44A21BA964ED00CB188D /* GroupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		15B4976E1BA8AD2000C43FE7 /* PhotoFolderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFolderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B497731BA8AD2000C43FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B497741BA8AD2000C43FE7 /* PhotoFolderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFolderTests.swift; sourceTree = "<group>"; };
+		FA29BE541BB9301500E3E122 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAFC44A01BA964CA00CB188D /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		FAFC44A21BA964ED00CB188D /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,12 @@
 				15B4975E1BA8AD2000C43FE7 /* AppDelegate.swift */,
 				15B497601BA8AD2000C43FE7 /* ViewController.swift */,
 				15B497621BA8AD2000C43FE7 /* Main.storyboard */,
+				FAFC44A01BA964CA00CB188D /* GroupTableViewController.swift */,
+				FAFC44A21BA964ED00CB188D /* GroupTableViewCell.swift */,
 				15B497651BA8AD2000C43FE7 /* Images.xcassets */,
 				15B497671BA8AD2000C43FE7 /* LaunchScreen.xib */,
 				15B4975C1BA8AD2000C43FE7 /* Supporting Files */,
+				FA29BE541BB9301500E3E122 /* LoginViewController.swift */,
 			);
 			path = PhotoFolder;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 		15B497511BA8AD2000C43FE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TeamReddit;
 				TargetAttributes = {
@@ -214,6 +224,9 @@
 			files = (
 				15B497611BA8AD2000C43FE7 /* ViewController.swift in Sources */,
 				15B4975F1BA8AD2000C43FE7 /* AppDelegate.swift in Sources */,
+				FAFC44A11BA964CA00CB188D /* GroupTableViewController.swift in Sources */,
+				FA29BE551BB9301500E3E122 /* LoginViewController.swift in Sources */,
+				FAFC44A31BA964ED00CB188D /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +422,7 @@
 				15B4977A1BA8AD2000C43FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B4977B1BA8AD2000C43FE7 /* Build configuration list for PBXNativeTarget "PhotoFolderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +431,7 @@
 				15B4977D1BA8AD2000C43FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
